@@ -1,4 +1,5 @@
 import Avatar from "./components/Avatar";
+import Button from "./components/Button";
 import Clock from "./components/Clock";
 import Drinks from "./components/Drinks";
 import Image from "./components/Image";
@@ -14,7 +15,7 @@ import TeaSet from "./components/TeaSet";
 function App() {
   return (
     <>
-    <Profile></Profile>
+    <Button></Button>
     </>
   );
 }
