@@ -1,5 +1,5 @@
 import Avatar from "./components/Avatar";
-import Button from "./components/Button";
+import Button from "./components/2/Button";
 import Clock from "./components/Clock";
 import Drinks from "./components/Drinks";
 import Image from "./components/Image";
@@ -10,12 +10,15 @@ import Poem from "./components/Poem";
 import Profile from "./components/Profile";
 import Recipe from "./components/Recipe";
 import Task from "./components/Task";
-import TeaSet from "./components/TeaSet";
+import TeaSet from "./components/TeaSet"; 
+import Propagation from "./components/2/Propagation";
+import ChangeSwitch from "./components/2/ChangeSwitch";
+import Gallery from "./components/2/Gallery";
 
 function App() {
   return (
     <>
-    <Button></Button>
+    <Gallery></Gallery>
     </>
   );
 }
