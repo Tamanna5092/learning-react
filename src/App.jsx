@@ -14,11 +14,15 @@ import TeaSet from "./components/TeaSet";
 import Propagation from "./components/2/Propagation";
 import ChangeSwitch from "./components/2/ChangeSwitch";
 import Gallery from "./components/2/Gallery";
+import MovingDot from "./components/2/MovingDot";
+import Form from "./components/2/From";
+import Form1 from "./components/2/From1";
+import AddList from "./components/2/AddList"
 
 function App() {
   return (
     <>
-    <Gallery></Gallery>
+    <AddList></AddList>
     </>
   );
 }
