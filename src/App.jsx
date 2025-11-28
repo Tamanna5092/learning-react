@@ -19,11 +19,13 @@ import Form from "./components/2/From";
 import Form1 from "./components/2/From1";
 import AddList from "./components/2/AddList";
 import InputWithState from "./components/3/InputWithState";
+import Pointer from "./components/3/Pointer";
+import Form3 from "./components/3/Form";
 
 function App() {
   return (
     <>
-      <InputWithState></InputWithState>
+    <Form3></Form3>
     </>
   );
 }
