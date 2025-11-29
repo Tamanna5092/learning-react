@@ -21,11 +21,12 @@ import AddList from "./components/2/AddList";
 import InputWithState from "./components/3/InputWithState";
 import Pointer from "./components/3/Pointer";
 import Form3 from "./components/3/Form";
+import FeedBack from "./components/3/FeedBack";
 
 function App() {
   return (
     <>
-    <Form3></Form3>
+      <FeedBack></FeedBack>
     </>
   );
 }
