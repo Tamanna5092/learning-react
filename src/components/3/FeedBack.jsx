@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function sendMessage(text) {
+function sendMessage() {
   return new Promise((resolve) => {
     setTimeout(resolve, 2000);
   });

@@ -22,11 +22,12 @@ import InputWithState from "./components/3/InputWithState";
 import Pointer from "./components/3/Pointer";
 import Form3 from "./components/3/Form";
 import FeedBack from "./components/3/FeedBack";
+import FormRedundant from "./components/3/FormRedundant";
 
 function App() {
   return (
     <>
-      <FeedBack></FeedBack>
+    <FormRedundant></FormRedundant>
     </>
   );
 }
