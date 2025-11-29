@@ -24,11 +24,14 @@ import Form3 from "./components/3/Form";
 import FeedBack from "./components/3/FeedBack";
 import FormRedundant from "./components/3/FormRedundant";
 import Mirror from "./components/3/Mirror";
+import TravelMenu from "./components/3/TravelMenu";
+import MenuEditable from "./components/3/MenuEditable";
 
 function App() { 
   return (
     <>
-      <Mirror messageColor={'#9d0505ff'}></Mirror> 
+    <TravelMenu></TravelMenu>
+    <MenuEditable></MenuEditable>
     </>
   );
 }
