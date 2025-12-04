@@ -27,11 +27,12 @@ import Mirror from "./components/3/Mirror";
 import TravelMenu from "./components/3/TravelMenu";
 import MenuEditable from "./components/3/MenuEditable";
 import TravelPlan from "./components/3/TravelPlan";
+import Accordion from "./components/3/Accordion";
 
 function App() { 
   return (
     <>
-    <TravelPlan></TravelPlan>
+    <Accordion />
     </>
   );
 }
