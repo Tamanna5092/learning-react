@@ -26,12 +26,12 @@ import FormRedundant from "./components/3/FormRedundant";
 import Mirror from "./components/3/Mirror";
 import TravelMenu from "./components/3/TravelMenu";
 import MenuEditable from "./components/3/MenuEditable";
+import TravelPlan from "./components/3/TravelPlan";
 
 function App() { 
   return (
     <>
-    <TravelMenu></TravelMenu>
-    <MenuEditable></MenuEditable>
+    <TravelPlan></TravelPlan>
     </>
   );
 }
