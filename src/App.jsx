@@ -28,11 +28,12 @@ import TravelMenu from "./components/3/TravelMenu";
 import MenuEditable from "./components/3/MenuEditable";
 import TravelPlan from "./components/3/TravelPlan";
 import Accordion from "./components/3/Accordion";
+import Counter from "./components/3/Counter";
 
 function App() { 
   return (
     <>
-    <Accordion />
+    <Counter></Counter>
     </>
   );
 }
