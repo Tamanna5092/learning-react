@@ -29,11 +29,12 @@ import MenuEditable from "./components/3/MenuEditable";
 import TravelPlan from "./components/3/TravelPlan";
 import Accordion from "./components/3/Accordion";
 import Counter from "./components/3/Counter";
+import ScoreBoard from "./components/3/ScoreBoard";
 
 function App() { 
   return (
     <>
-    <Counter></Counter>
+    <ScoreBoard></ScoreBoard>
     </>
   );
 }
