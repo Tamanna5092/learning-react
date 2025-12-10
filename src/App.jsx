@@ -30,11 +30,12 @@ import TravelPlan from "./components/3/TravelPlan";
 import Accordion from "./components/3/Accordion";
 import Counter from "./components/3/Counter";
 import ScoreBoard from "./components/3/ScoreBoard";
+import ShowHint from "./components/3/ShowHint";
 
 function App() { 
   return (
     <>
-    <ScoreBoard></ScoreBoard>
+      <ShowHint></ShowHint>
     </>
   );
 }
