@@ -32,11 +32,12 @@ import Counter from "./components/3/Counter";
 import ScoreBoard from "./components/3/ScoreBoard";
 import ShowHint from "./components/3/ShowHint";
 import Message from "./components/3/Message";
+import TaskApps from "./components/3/Extracting/TaskApps";
 
 function App() { 
   return (
     <>
-    <Message></Message>
+    <TaskApps></TaskApps>
     </>
   );
 }
