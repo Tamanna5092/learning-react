@@ -33,11 +33,12 @@ import ScoreBoard from "./components/3/ScoreBoard";
 import ShowHint from "./components/3/ShowHint";
 import Message from "./components/3/Message";
 import TaskApps from "./components/3/Extracting/TaskApps";
+import Page from "./components/3/Context/Page";
 
 function App() { 
   return (
     <>
-    <TaskApps></TaskApps>
+    <Page></Page>
     </>
   );
 }
