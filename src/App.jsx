@@ -34,11 +34,12 @@ import ShowHint from "./components/3/ShowHint";
 import Message from "./components/3/Message";
 import TaskApps from "./components/3/Extracting/TaskApps";
 import Page from "./components/3/Context/Page";
+import ImageGallery from "./components/3/challenge/ImageGallery";
 
 function App() { 
   return (
     <>
-    <Page></Page>
+    <ImageGallery></ImageGallery>
     </>
   );
 }
